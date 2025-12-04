@@ -1,3 +1,13 @@
+-- Create a new database called world and populate it with the SQL found in world.sql
+-- psql -f world.sql
+
+-- Start psql and connect to the new database called world
+-- psql -d world
+
+-- display all tables
+-- \d
+
+
 CREATE DATABASE world;
 \connect world
 
